@@ -25,7 +25,7 @@ Restart elasticsearch.
     cd es-thulya-bigfox-plugin
     mvn clean install
 
-************  ## This documentation is outdated and not maintained; May not be accurate ****************
+# ************ This documentation is outdated and not maintained; May not be accurate ****************
 
 ## Limitations
 

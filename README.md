@@ -4,6 +4,8 @@ A plugin for [elasticsearch](https://www.elastic.co/products/elasticsearch) to s
 
 Loosely based on https://github.com/ForgeRock/es-change-feed-plugin
 
+#  This documentation is outdated and not maintained; May not be accurate 
+
 ## Requirements
 
 * Elasticsearch 1.4, 2.2, 2.3, 2.4, 5.3, 5.4
@@ -25,7 +27,6 @@ Restart elasticsearch.
     cd es-thulya-bigfox-plugin
     mvn clean install
 
-# ************ This documentation is outdated and not maintained; May not be accurate ****************
 
 ## Limitations
 

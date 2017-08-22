@@ -1,6 +1,6 @@
 # Elasticsearch Thulya BigfoxDb (Bigfox) Changes Feed Plugin to preserve changes to the local database.
 
-A plugin for [elasticsearch](https://www.elastic.co/products/elasticsearch) to stores changes to the local database. Currently supports [RocksDB](https://github.com/facebook/rocksdb/)
+A plugin for [elasticsearch](https://www.elastic.co/products/elasticsearch) to store changes to the local database. Currently supports [RocksDB](https://github.com/facebook/rocksdb/)
 
 Loosely based on https://github.com/ForgeRock/es-change-feed-plugin
 

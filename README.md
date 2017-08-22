@@ -1,9 +1,8 @@
-# Elasticsearch Changes Feed Plugin
+# Elasticsearch Thulya BigfoxDb (Bigfox) Changes Feed Plugin to preserve changes to the local database.
 
-A plugin for [elasticsearch](https://www.elastic.co/products/elasticsearch) which allows a client to create a 
-websocket connection to an elasticsearch node and receive a feed of changes from the database.
+A plugin for [elasticsearch](https://www.elastic.co/products/elasticsearch) to stores changes to the local database. Currently supports [RocksDB](https://github.com/facebook/rocksdb/)
 
-Loosely based on https://github.com/derryx/elasticsearch-changes-plugin
+Loosely based on https://github.com/ForgeRock/es-change-feed-plugin
 
 ## Requirements
 
@@ -16,15 +15,17 @@ To install run the following command, replacing {version} with the version you w
 the plugin requires additional permissions which will automatically be granted using the below command (remove -b option
 if you want to manually approve these permissions)
 
-    bin/elasticsearch-plugin install -b https://github.com/jurgc11/es-change-feed-plugin/releases/download/{version}/es-changes-feed-plugin.zip
+    bin/elasticsearch-plugin install -b https://github.com/diwakarpp/es-thulya-bigfox-plugin/releases/download/{version}/es-changes-feed-plugin.zip
 
 Restart elasticsearch.
 
 ## Build From Source
 
-    git clone https://github.com/jurgc11/es-change-feed-plugin.git
-    cd es-change-feed-plugin
+    git clone https://github.com/diwakarpp/es-thulya-bigfox-plugin.git
+    cd es-thulya-bigfox-plugin
     mvn clean install
+
+************  ## This documentation is outdated and not maintained; May not be accurate ****************
 
 ## Limitations
 
